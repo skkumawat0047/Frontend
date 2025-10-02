@@ -10,6 +10,10 @@ body {
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
+    overflow-y: hidden;
+    background-attachment: fixed;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 .left_hover {
     position: fixed;
@@ -20,19 +24,19 @@ body {
     background-color: #3f00fc;
     cursor: pointer;
     transition: width 1s;
-    /* overflow: hidden; */
     opacity: 0;
+    z-index: 15;
 }
 
 .left_hover:hover {
     width: 170px;
     transition: width 1s;
-    opacity: 1;
+    opacity:1;
     cursor:auto;
 }
 .left_hover button {
     cursor: pointer;
-    background-color: hsl(302, 75%, 65%);
+    background-color: hsl(302, 70%, 78%);
     color: white;
     opacity: 0;
     transition: opacity 1s;
@@ -43,7 +47,7 @@ body {
     border: none;
 }
 .left_hover:hover button {
-    opacity: 1;
+    opacity: 2;
 }
 
 header {
@@ -51,9 +55,9 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 10;
     padding: 3px 0 3px 0;
-    background: linear-gradient(rgba(114, 60, 230,0.3),rgba(238, 97, 210,0.3));
+    background: linear-gradient(rgba(114, 60, 230,0.7),rgba(238, 97, 210,0.7));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,11 +67,11 @@ header {
 }
 .invoice {
     background:linear-gradient(rgba(203, 216, 83,0.5),rgba(238, 137, 238,0.5));
+    z-index: 2;
     margin-top: 7rem;
     display: flex;
     justify-content: center;
     align-items:first baseline;
-    /* height:auto; */
     font-size: 3rem;
     padding: 5px;
     color: rgb(225, 224, 233);
@@ -77,16 +81,18 @@ header {
     padding-left: 11.3rem;
 }
 .customer {
-    margin-top:5rem;
+    /* margin-top:5rem; */
+    margin-top:2rem;
     font-size:2.5rem;
     height: auto;
     color: white;
     font-weight: bold;
 }
 .Input {
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    margin-top: 20px;
     display: flex;
-    padding-left: 3rem;
+    padding-left: 3.1rem;
     justify-content:space-around;
 }
 input{
@@ -100,10 +106,10 @@ input{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 12rem;
+    /* margin-top: 12rem; */
+    margin-top: 2rem;
 }
 .custadd button {
-    background-color: #3f00fc;
     font-size: 2rem;
     border: 2px solid black;
     padding: 8px;
@@ -115,11 +121,26 @@ button:active {
     background-color: aquamarine;
 }
 .CustProduct {
-    margin-top: 100px;
+    /* margin-top: 10rem; */
+    margin-top: 3rem;
     padding-left:11.3rem ;
     display: flex;
     flex-direction: column;
     gap: 10px;
     align-items: self-start;
     color: white;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+footer button{
+    /* margin: 10rem 0rem 10rem; */
+    margin: 3rem;
+    width: 100px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
