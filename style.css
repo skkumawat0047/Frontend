@@ -9,6 +9,7 @@ body {
     background-position: center center;
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 .left_hover {
     position: fixed;
@@ -46,37 +47,79 @@ body {
 }
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
     padding: 3px 0 3px 0;
-    background:linear-gradient(rgba(114, 60, 230,0.3),rgba(238, 97, 210,0.3));
+    background: linear-gradient(rgba(114, 60, 230,0.3),rgba(238, 97, 210,0.3));
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 .invoice {
     background:linear-gradient(rgba(203, 216, 83,0.5),rgba(238, 137, 238,0.5));
-    margin-top: 2rem;
+    margin-top: 7rem;
     display: flex;
     justify-content: center;
     align-items:first baseline;
-    height:3rem;
-    font-size: 2rem;
-    padding-top: 5px;
+    /* height:auto; */
+    font-size: 3rem;
+    padding: 5px;
     color: rgb(225, 224, 233);
 }
 .CustInvoice {
-    font-size: 2rem;
-    padding-left: 13rem;
+    font-size:3rem;
+    padding-left: 11.3rem;
 }
 .customer {
-    margin-top: 3rem;
-    font-size:1.5rem;
+    margin-top:5rem;
+    font-size:2.5rem;
     height: auto;
+    color: white;
+    font-weight: bold;
 }
 .Input {
     margin-top: 50px;
     display: flex;
+    padding-left: 3rem;
     justify-content:space-around;
+}
+input{
+    height: 1.7rem;
+    width:20rem;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.custadd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12rem;
+}
+.custadd button {
+    background-color: #3f00fc;
+    font-size: 2rem;
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 20px;
+    width: 13rem;
+    cursor:pointer;
+}
+button:active {
+    background-color: aquamarine;
+}
+.CustProduct {
+    margin-top: 100px;
+    padding-left:11.3rem ;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: self-start;
+    color: white;
 }
