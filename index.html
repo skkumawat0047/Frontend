@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Billing System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="Store">Radhe Radhe Store</div>
+    </header>
+    <div class="left_hover">
+        <div class="box">
+            <button>Invoice</button>
+            <button>Product</button>
+            <button>See Product</button>
+            <button>Customer's Details</button>
+            <button>site5</button>
+        </div>
+    </div>
+    <div class="invoice">INVOICE</div>
+    <div class="customer">
+        <div class="CustInvoice">Customer</div>
+        <div class="Input">
+            <div>
+                <label for="Name">Name:</label>
+                <input type="text" id="Name" placeholder="Enter Name" required>
+            </div>
+            <div>
+                <label for="Mob.No">Mob.No:</label>
+                <input type="tel" id="Name" placeholder="Enter Number" required>
+            </div>
+        </div>
+        <div class="custadd"><button>ADD</button></div>
+    </div>
+    <div class="CustProduct">
+        <div>
+            <label style="margin-right: 25px;">Invoice_No.:</label>
+                <input type="tel" id="Name" placeholder="Enter Invoice_No"   required>
+        </div>
+        <div>
+            <label style="margin-right: 28px;">ID/P_Name:</label>
+                <input type="text" id="Name" placeholder="Enter ID/P_Name" required>
+        </div>
+        <div>
+            <label style="margin-right: 20px;">Quantity(Kg):</label>
+                <input type="number" id="Quantity" name="Quantity" placeholder="Enter Quantity (Kg.)" min="0" required>
+        </div>
+        <div>
+            <label style="margin-right: 5px;">Discount(in %):</label>
+                <input type="number" id="discount" name="discount" placeholder="Enter discount %" min="0" max="100" required>
+        </div>
+    </div>
+</body>
+
+</html>
