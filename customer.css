@@ -1,0 +1,43 @@
+.customer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Customer {
+    margin-top: 7rem;
+    background: linear-gradient(rgba(240, 98, 228, 0.5), rgba(238, 137, 238, 0.5));
+    text-align: center;
+    font-size: 3rem;
+    padding: 5px;
+    color: rgb(225, 224, 233);
+    width: 74.3%;
+    border-radius: 10px;
+}
+.search{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    margin-top: 8px;
+    border-radius: 10px;
+    width: 74.3%;
+    background-color: aliceblue;
+}
+ul {
+    margin-top: 2px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color:rgb(214, 214, 214);
+    border-radius: 10px;
+    width: 75%;
+}
+.custdetails{
+    margin-top: 1px;
+    background-color: wheat;
+    height:63vh;
+    width: 75%;
+    border-radius: 10px;
+}

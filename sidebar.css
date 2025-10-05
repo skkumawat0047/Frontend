@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-attachment: fixed;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.left_hover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 100vh;
+    background-color: #3f00fc;
+    cursor: pointer;
+    transition: width 1s ease, opacity 1s ease;
+    opacity: 0;
+    z-index: 15;
+}
+
+.left_hover:hover {
+    width: 170px;
+    opacity: 1;
+    cursor: auto;
+}
+
+.left_hover button {
+    cursor: pointer;
+    background-color: hsl(303, 21%, 63%);
+    color: white;
+    opacity: 0;
+    transition: opacity 1.5s ease;
+    margin: 1px 0px 1px 0px;
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    border: none;
+}
+
+.left_hover:hover button {
+    opacity: 2;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(rgba(140, 197, 228, 0.7), rgba(31, 14, 182, 0.7));
+    text-align: center;
+    color: white;
+    font-size: 3.8rem;
+}
+
+button {
+    width: 100px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 35px;
+}
+
+button:active {
+    background-color: aquamarine;
+}
+input {
+    outline: none;
+    border-radius: 5px;
+    padding: 2px;
+    height: 20px;
+}
