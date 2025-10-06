@@ -37,7 +37,7 @@ ul {
 .custdetails{
     margin-top: 1px;
     background-color: wheat;
-    height:63vh;
+    min-height: 430px;
     width: 75%;
     border-radius: 10px;
 }

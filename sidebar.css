@@ -75,7 +75,8 @@ button {
 }
 
 button:active {
-    background-color: aquamarine;
+    background-color: rgb(42, 33, 220);
+    color: white;
 }
 input {
     height: 1.7rem;
