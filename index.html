@@ -25,7 +25,7 @@
         <div class="invoice">INVOICE</div>
     </nav>
     <div class="customer">
-        <div class="CustInvoice">Customer</div>
+        <div class="CustInvoice">Customer:</div>
         <div class="Input">
             <div>
                 <span>Name:</span>
@@ -40,23 +40,25 @@
     </div>
     <div class="Cust">
 
-        <div class="CustProduct">
+        <div class="CustProduct in">
             <div>
                 <label style="margin-right: 43px;">Invoice_No.:</label>
                 <input type="tel" id="Name" placeholder="Enter Invoice_No" required>
             </div>
         </div>
+        <div class="CustProduct pro"><h3>Add Products:</h3></div>
         <div class="CustProduct">
-
             <div class="P_Name">
                 <label>ID/P_Name:</label>
                 <input type="text" id="Name" placeholder="Enter ID/P_Name" required>
+            </div>
+            <div>
                 <label>Quantity(Kg):</label>
                 <input type="number" id="Quantity" name="Quantity" placeholder="Enter Quantity (Kg.)" min="0" required>
-                <button>Add</button>
             </div>
+                <button>Add</button>
         </div>
-        <div class="CustProduct">
+        <div class="CustProduct discount">
             <div>
                 <label style="margin-right: 7px;">Discount(in %):</label>
                 <input type="number" id="discount" name="discount" placeholder="Enter discount %" min="0" max="100"

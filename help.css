@@ -1,0 +1,59 @@
+.Help {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.help {
+  background: linear-gradient(rgba(240, 98, 228, 0.5), rgba(238, 137, 238, 0.5));
+  z-index: 2;
+  margin-top: 7rem;
+  width: 74.3%;
+  font-size: 3rem;
+  padding: 5px;
+  color: rgb(225, 224, 233);
+  border-radius: 10px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.box5 {
+  margin: 50px;
+  text-align: center;
+  width: 30%;
+  background-color: aliceblue;
+  border-radius: 10px;
+  color: rgb(141, 95, 95);
+  padding-bottom: 3rem;
+}
+
+.box5 h3 {
+  color: rgb(98, 112, 124);
+}
+
+.sms {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: start;
+}
+
+textarea {
+  border-radius: 5px;
+  resize: vertical;
+  box-sizing: border-box;
+  outline: none;
+  min-height: 150px;
+  max-height: 400px;
+  overflow-y: auto;
+}

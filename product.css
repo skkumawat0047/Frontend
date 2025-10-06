@@ -38,26 +38,24 @@ li {
     background: linear-gradient(rgba(96, 209, 215, 0.8),rgba(210, 53, 181, 0.8));
     margin-top: 4rem;
     border: 2px solid rgb(255, 255, 255);
-    height:300px;
-    width:40%;
+    padding:1.5rem 0px 1.5rem 0px;
+    width:40.5%;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* text-align: center; */
+    text-align: center;
     align-items: center;
     gap: 30px;
 }
 .update {
     background-color: white;
-    height: 33px;
-    padding: 5px;
-    width: 55%;
+    padding: 0px 10px 3px 10px;
     border-radius: 8px;
 }
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1rem;
+    margin-top: 1.2rem;
 }

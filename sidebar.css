@@ -78,8 +78,12 @@ button:active {
     background-color: aquamarine;
 }
 input {
+    height: 1.7rem;
+    width: auto;
     outline: none;
-    border-radius: 5px;
-    padding: 2px;
-    height: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-left: 15px;
+    padding: 5px;
+    min-width: 15rem;
 }

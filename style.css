@@ -14,45 +14,29 @@
     width: 74.3%;
     border-radius: 10px;
 }
-
-.CustInvoice {
-    font-size: 3rem;
-    padding-left: 6%;
-}
-
 .customer {
-    margin: 2rem 12rem;
+    margin: 1rem 12rem;
     width: auto;
     border: 2px solid white;
     border-radius: 12px;
-    font-size: 2.5rem;
-    height: auto;
     color: rgb(203, 153, 153);
-    font-weight: bold;
     background-color: antiquewhite;
     padding-bottom: 1rem;
 }
 
+.CustInvoice {
+    font-size: 40px;
+    padding-left: 6%;
+}
 .Input {
     margin-top: 5px;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-evenly;
 }
 
 .Input div {
     display: wrap;
     align-items: center;
-}
-
-input {
-    height: 1.7rem;
-    width: auto;
-    outline: none;
-    border: 1px solid gray;
-    border-radius: 10px;
-    margin-left: 15px;
-    padding: 5px;
-    min-width: 15rem;
 }
 
 .custadd {
@@ -65,24 +49,34 @@ input {
 .Cust {
     margin: 0rem 12rem;
     width: 75%;
+    color: rgb(96, 190, 64);
 }
 
 .CustProduct {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: flex-start;
-    color: rgb(213, 145, 145);
+    flex-direction: row;
+    justify-content: space-between;
     border: 2px solid white;
     border-radius: 10px;
-    padding: 2px 0px 5px 4.5rem;
+    padding: 5px 10px;
+    background-color: rgba(245, 222, 179,0.9);
 }
-
+.in {
+    margin-bottom: 1.5rem;
+}
+.pro {
+    margin-bottom: 5px;
+    color: rgb(218, 62, 62);
+}
 .p_Name {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
-
+.discount{
+    margin-top: 30px;
+    color: green;
+    background-color: aliceblue;
+}
 footer {
     display: flex;
     justify-content: center;
