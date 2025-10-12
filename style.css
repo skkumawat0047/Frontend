@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center ;
-    background-color: wheat;
 }
 .invoice {
     margin-top: 7rem;
@@ -11,12 +10,11 @@
     font-size: 3rem;
     padding: 5px;
     color: rgb(225, 224, 233);
-    width: 74.3%;
     border-radius: 10px;
 }
 .customer {
-    margin: 1rem 12rem;
-    min-width: 74.3%;
+    margin: 1rem 0px;
+    /* width: 75%; */
     border: 2px solid white;
     border-radius: 12px;
     color: rgb(203, 153, 153);
@@ -46,15 +44,16 @@
     margin-top: 1rem;
 }
 
-.Cust {
+/* .Cust {
     margin: 0rem 12rem;
     width: 75%;
     color: rgb(96, 190, 64);
-}
+} */
 
 .CustProduct {
     display: flex;
     flex-direction: row;
+    /* width: 74%; */
     justify-content: space-between;
     border: 2px solid white;
     border-radius: 10px;
@@ -83,4 +82,54 @@ footer {
     align-items: center;
     gap: 4rem;
     margin-top: 1rem;
+}
+
+.width {
+    width: 74.3%;
+}
+@media only screen and (max-width:800px) {
+    .width {
+        width: 94%;
+    }
+    .boxer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .CustProduct {
+        display: flex;
+        flex-direction: column;
+    }
+    .adbut {
+        margin-top: 5px;
+        align-self: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .width {
+        width: 90%;
+    }
+    .boxer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .customer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .Input {
+        flex-direction: column; 
+        align-items: center;
+        gap: 10px;
+    }
+    footer {
+        flex-direction: column;
+        gap: 1rem;
+    }
 }
