@@ -95,3 +95,26 @@ input {
         font-size:2.25rem;
     }
 }
+
+.successful {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    background: rgba(120, 228, 136, 0.9);
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    row-gap: 20px;
+    padding-bottom: 20px;
+    z-index: 2;
+}
+.successful i {
+    font-size: 5rem;
+    color: green;
+}
